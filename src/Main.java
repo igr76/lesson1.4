@@ -10,6 +10,7 @@ public class Main {
         for (int i=10;i >0;i -- ) {
             System.out.print(i + " ");
         } System.out.println(" ");
+
         // отчёт в пятницу
         int number = 2;
         for (; number < 31; number=number + 7) {
