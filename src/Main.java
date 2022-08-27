@@ -15,8 +15,8 @@ public class Main {
         } System.out.println(" ");
 
         // отчёт в пятницу
-        int number = 2;
-        for (; number <= 31; number=number +7 ) {
+
+        for ( int number = 2; number <= 31; number=number +7 ) {
             System.out.println("Сегодня пятница " + number + "-е число." +
                     "необходимо подготовить отчёт ");
         }
